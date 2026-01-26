@@ -1,0 +1,114 @@
+#content{
+    max-width: 1600;
+    margin: 0 auto;
+}
+
+nav a, #hero-msg h1, #hero-msg h2, .button-box, main section{
+text-align: center;
+}
+
+#background{
+    height: 725px;
+    background-color: #e6e6e5;
+}
+
+body, header, nav a:hover, .book, .join, .book:hover, .join:hover, .msg, footer{
+    background-color: #e6e6e5;
+}
+
+nav a, nav a:hover, .home-title, h4, .book, .join, .book:hover, .join:hover,.msg h2,.msg p, footer,footer a,footer a:hover{
+    color: #023047;
+}
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+
+.logo{
+    width: 80px;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+nav a,.book, .join,footer a{
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+.home-title, .msg h2{
+    font-family: "Rock Salt", 'Bradley Hnad', sans-serif; 
+}
+
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
+}
+.book, .join{
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.msg{
+    line-height: 1.5em;
+    padding: 35px;
+}
+*{
+    font-size: 22px;
+    font-family: Roboto, Arial, sans-serif; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+nav a{
+    padding: 35px;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}  
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+     margin: 200px 0;
+}
+
+.button-box{
+    margin: 10px;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+main section img{
+    box-sizing: border-box;
+}

@@ -17,7 +17,7 @@ body, header, nav a:hover, .book, .join, .book:hover, .join:hover, .msg, footer{
 }
 
 nav a, nav a:hover, .home-title, h4, .book, .join, .book:hover, .join:hover,.msg h2,.msg p, footer,footer a,footer a:hover{
-    color: #023047;
+    color: #00547d;
 }
 
 .icon{
@@ -51,6 +51,15 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+footer {
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .home-title, .msg h2{
     font-family: "Rock Salt", 'Bradley Hnad', sans-serif; 
 }
@@ -81,6 +90,8 @@ footer p a:hover{
     padding-bottom: 15px;
 }
 .msg{
+    grid-column: 6/10;
+    grid-row: 6/7;
     line-height: 1.5em;
     padding: 35px;
 }
@@ -121,8 +132,28 @@ footer .social img{
     padding-top: 15px;
 }
 
-.rivers-card, .camping-card, .rapids-card{
+.rivers-card, pin.camg-card, .rapids-card{
      margin: 200px 0;
+}
+
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
 }
 
 .button-box{
@@ -134,7 +165,11 @@ footer .social img{
     width: 100%;
 }
 
-.mountain
+.mountain {
+    grid-column: 2/7;
+    grid-row: 5/8;
+    width: 100%;
+}
 
 main section img{
     box-sizing: border-box;

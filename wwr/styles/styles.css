@@ -131,7 +131,10 @@ footer .social img{
 
 .card-img{
     border: 10px solid black;
+    width: 100%;
 }
+
+.mountain
 
 main section img{
     box-sizing: border-box;

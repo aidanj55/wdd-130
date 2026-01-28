@@ -1,6 +1,6 @@
 #content{
+    max-width: 1600px;
     margin: 0 auto;
-    max-width: 1600;
 }
 
 nav a, #hero-msg h1, #hero-msg h2, .button-box, main section{

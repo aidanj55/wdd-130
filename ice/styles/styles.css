@@ -1,11 +1,13 @@
-div {
+#card {
     background-color: #008db1;
-    width: 300px;
-    border: 15px solid #004e63;
+    border-radius: 20px;
+    width: 400px;
+    border: 1px solid #004e63;
     padding: 50px;
-    margin: 20px;
+    margin: 0 auto;
 }
 h1{
     color: #fffffe;
     font: Helvetica;
+    text-align: center;
 }

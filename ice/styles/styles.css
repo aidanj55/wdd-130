@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+
 #card {
     background-color: #008db1;
     border-radius: 20px;
@@ -34,5 +36,5 @@ img {
 
 h2{
     color: #ffd783;
-    font: Brush-Script-MT;
+    font: Nanum-Brush-Script;
 }

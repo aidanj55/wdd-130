@@ -4,34 +4,45 @@ img {
     margin-left: auto; 
     margin-right: auto;
 }
-
-ul {
-    font-size: 25px;
-    color: #7a05ff;
-    
+#wrapper{
+    background: rgb(255, 246, 246);
+    margin: rgb(255, 246, 246);
 }
 
+ul {
+    display: block;
+    font-size: 20px;
+    color: #7a05ff;
+    border:  rgb(255, 246, 246) solid;
+    display: flex;
+    list-style: none;
+}
 
-
+li{
+    margin: 0 auto;
+}
 #love{
-    border: 2px rgb(255, 255, 255) solid;
+    border: 2px  rgb(255, 246, 246) solid;
     background-color: rgb(252, 144, 202);
     margin: 10px;
     padding: 5px;
+    text-align: center;
 }
 
 #heart{
-    border: 2px rgb(255, 255, 255) solid;
+    border: 2px  rgb(255, 246, 246) solid;
     background-color: rgb(214, 144, 252);
     margin: 10px;
     padding: 5px;
+    text-align: center;
 }
 
 #cupid{
-    border: 2px rgb(255, 255, 255) solid;
+    border: 2px  rgb(255, 246, 246) solid;
     background-color: rgb(252, 144, 202);
     margin: 10px;
     padding: 5px;
+    text-align: center;
 }
 
 h1{
@@ -39,3 +50,4 @@ h1{
     text-align: center;
     font-size: 50px;
 }
+

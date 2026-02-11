@@ -8,26 +8,30 @@ img {
 ul {
     font-size: 25px;
     color: #7a05ff;
+    
 }
 
 
 
 #love{
-    border: 2px black solid;
+    border: 2px rgb(255, 255, 255) solid;
     background-color: rgb(252, 144, 202);
     margin: 10px;
+    padding: 5px;
 }
 
 #heart{
-    border: 2px black solid;
+    border: 2px rgb(255, 255, 255) solid;
     background-color: rgb(214, 144, 252);
     margin: 10px;
+    padding: 5px;
 }
 
 #cupid{
-    border: 2px black solid;
+    border: 2px rgb(255, 255, 255) solid;
     background-color: rgb(252, 144, 202);
     margin: 10px;
+    padding: 5px;
 }
 
 h1{

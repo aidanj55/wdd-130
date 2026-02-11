@@ -12,10 +12,10 @@ img {
 ul {
     display: block;
     font-size: 20px;
-    color: #7a05ff;
-    border:  rgb(255, 246, 246) solid;
+    color: #7700ff;
     display: flex;
     list-style: none;
+    background-color: ;
 }
 
 li{
@@ -23,7 +23,7 @@ li{
 }
 #love{
     border: 2px  rgb(255, 246, 246) solid;
-    background-color: rgb(252, 144, 202);
+    background-color: rgb(255, 185, 222);
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -31,7 +31,7 @@ li{
 
 #heart{
     border: 2px  rgb(255, 246, 246) solid;
-    background-color: rgb(214, 144, 252);
+    background-color: rgb(214, 185, 246);
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -39,7 +39,7 @@ li{
 
 #cupid{
     border: 2px  rgb(255, 246, 246) solid;
-    background-color: rgb(252, 144, 202);
+    background-color:  rgb(255, 185, 222);
     margin: 10px;
     padding: 5px;
     text-align: center;

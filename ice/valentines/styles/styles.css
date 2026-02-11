@@ -4,9 +4,11 @@ img {
     margin-left: auto; 
     margin-right: auto;
 }
+
 #wrapper{
     background: rgb(255, 246, 246);
     margin: rgb(255, 246, 246);
+    padding:  rgb(255, 246, 246);
 }
 
 ul {
@@ -15,7 +17,7 @@ ul {
     color: #7700ff;
     display: flex;
     list-style: none;
-    background-color: ;
+    background-color: rgb(255, 246, 246) ;
 }
 
 li{

@@ -1,3 +1,66 @@
+@import url();
+
 body {
     background-color: #edf2f4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.top_nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  grid-column: 1/3;
+  background-color: #2B2D42;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  place-items: center;
+}
+
+img{
+    width: 150px;
+}
+
+.top_nav a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 100x;
+}
+
+nav a{
+    margin: 35px;
+    background-color: #D90429;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    background-color: #620010;
+    color: white;
+}
+
+div.pic_me {
+  width: 58%;
+  background-color: #D90429;
+  box-shadow: 10px 10px 10px 0 #8D99AE;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin: 40px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.about_me{
+    font-size: x-large;
+}
+
+#bot_nav{
+    background-color: #2B2D42;
+    grid-column: 1/3;
+    width: 100%;
+    padding: 40px;
 }

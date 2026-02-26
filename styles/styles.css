@@ -67,6 +67,11 @@ div.container {
     padding: 40px;
 }
 
-#project{
-    
+div.polaroid {
+ width: 58%;
+  background-color: #D90429;
+  box-shadow: 10px 10px 10px 0 #8D99AE;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin: 40px;
 }

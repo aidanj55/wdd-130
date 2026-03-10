@@ -11,29 +11,21 @@ h1{
 p{
  font-family: 'Cormorant-Garamond';
 }
-.about_me{
+
+div#about_me{
+
+}
+
+div#studio_notes{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr
+    
 }
 
-/* .about_me h1{
-
-}
-
-.studio_notes{
-
+#studio_notes p{
+    
 }
 
 .music{
 
 }
-
-.music{
-    
-}
-
-.music a{
-    
-} */
-

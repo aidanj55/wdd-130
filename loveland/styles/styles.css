@@ -3,7 +3,10 @@
 body{
 
 }
-
+img{
+    width: 100px;
+    height: 100px;
+}
 .about_me{
 
 }
@@ -20,7 +23,9 @@ body{
     background-color: #2B2D42;
 }
 
-.music
+.music{
+    
+}
 
 .music a{
     width: 100px;

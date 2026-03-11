@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 body{
-    background-image: repeating-linear-gradient(#1C2C28, #C8CfC9);
+    background-image: repeating-linear-gradient(#0f1a15, #2E423A);
     width: 60%;
     margin: 100px auto;
     position: relative;
@@ -9,14 +9,17 @@ body{
 
 h1{
     font-family: DM-Sans;
+    color: #e6e8e3;
 }
 
 p{
  font-family: Cormorant-Garamond;
+ color: #9da79a;
 }
 
 div#about_me{
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 div#studio_notes{

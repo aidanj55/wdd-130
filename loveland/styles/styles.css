@@ -18,8 +18,11 @@ h2{
 }
 
 p{
- font-family: Cormorant-Garamond;
- color: #9da79a;
+   font-family: Cormorant-Garamond;
+   color: #9da79a;
+   display: block;
+   background-color: #1e2f24;
+   padding: 20px;
 }
 
 #about_me{
@@ -38,6 +41,12 @@ p{
 
 #studio_notes div{
     grid-column: 2/3;
+}
+
+.horizontal-line {
+  border-top: 20px solid #4f5f3a; 
+  width: 100%;
+  margin: 10px 0;
 }
 
 #music{

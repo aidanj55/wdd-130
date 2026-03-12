@@ -33,15 +33,24 @@ p{
 }
 
 #studio_notes{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+
 }
 
 #studio_notes div{
     grid-column: 2/3;
 }
 
-.music{
-
+#music{
+    display: grid;
+    grid-column: 1fr 1fr;
 }
+
+#music div{
+    grid-column: 2/3;
+    
+}
+
+#music p{
+    grid-column: 1/2;
+}
+

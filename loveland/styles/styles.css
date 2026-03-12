@@ -36,15 +36,18 @@ p{
 }
 
 #studio_notes{
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #studio_notes div{
-    grid-column: 2/3;
+    grid-column: 3/5;
+    grid-row: 1/5;
 }
 
 .horizontal-line {
-  border-top: 20px solid #4f5f3a; 
+  border-top: 20px solid black; 
   width: 100%;
   margin: 10px 0;
 }

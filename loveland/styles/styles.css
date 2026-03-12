@@ -12,27 +12,34 @@ h1{
     color: #e6e8e3;
 }
 
+h2{
+    font-family: DM-Sans;
+    color: #e6e8e3;
+}
+
 p{
  font-family: Cormorant-Garamond;
  color: #9da79a;
 }
 
-div#about_me{
+#about_me{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-div #about_me img{
+#about_me div{
     grid-column: 1/3;
+    text-align: left;
 }
-div#studio_notes{
+
+#studio_notes{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-#studio_notes p{
-    
+#studio_notes div{
+    grid-column: 2/3;
 }
 
 .music{

@@ -8,17 +8,17 @@ body{
 }
 
 h1{
-    font-family: DM-Sans;
+    font-family: "DM-Sans";
     color: #e6e8e3;
 }
 
 h2{
-    font-family: DM-Sans;
+    font-family: "DM-Sans";
     color: #e6e8e3;
 }
 
 p{
-   font-family: Cormorant-Garamond;
+   font-family: "Cormorant-Garamond";
    color: #9da79a;
    display: block;
    background-color: #1e2f24;

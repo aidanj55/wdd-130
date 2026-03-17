@@ -8,16 +8,17 @@
 </head>
 <body>
     <div id="about_me">
+            <div class="dropdown">
+                 <a onclick="myFunction()" class="dropbtn" href="javascript:void(0);" style="font-size:35px;" class="icon" onclick="myFunction()">&#9776;</a>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#home">Home</a>
+                <a href="#about_me">About Me</a>
+                <a href="#studio_heading">Studio Notes</a>
+                <a href="#music">Music</a>
+            </div>
             <div>
                 <img src="images/image 1.png" width=100%>
             </div>
-            <div class="dropdown">
-                    <a onclick="myFunction()" class="dropbtn" href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
-                </div>
             </div>
             <h1 class="name">
                 Matthew Loveland 
@@ -38,7 +39,7 @@
             <img src="images/image 2.png" width=100%>
         </div>
     </div>
-    <h1>
+    <h1 id="studio_heading">
         Studio Notes
     </h1>
     <div id="studio_notes">
@@ -82,13 +83,13 @@
         </p>
         <div>
             <a href="https://open.spotify.com/" target="_blank">
-                <img src="images/spotifiy_icon.webp" alt="spity" width=65px>
+                <img id="spotifiy" src="images/spotifiy_icon.webp" alt="spotifiy" width=65px>
             </a>
             <a href="https://www.instagram.com/?hl=en" target="_blank">
-                <img src="images/instagram_icon.png" alt="instagram" width=60px>
+                <img id="instagram" src="images/instagram_icon.png" alt="instagram" width=60px>
             </a>
             <a href="https://www.facebook.com/" target="_blank">
-                <img src="images/facebook_icon.png" alt="facebook" width=100px>
+                <img id="facebook" src="images/facebook_icon.png" alt="facebook" width=100px>
             </a>
         </div>
     </div>

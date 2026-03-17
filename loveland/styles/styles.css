@@ -120,12 +120,13 @@ p{
 
 .dropbtn {
   background-color: none;
-  padding: 16px;
-  font-size: 16px;
+  padding: 25px;
+  size: 40px;
   border: none;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
-
 
 
 .dropdown {
@@ -151,6 +152,5 @@ p{
   display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}

@@ -150,12 +150,16 @@ p{
 
 .dropdown-content a {
   font-family: "DM-Sans";
-  color: black;
+  color: #0f1a15;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
+.dropdown-content a:hover{
+   background-color: #0f1a15;
+    color: #e6e8e3
+}
 
 .show {display: block;}
 
